@@ -9,7 +9,7 @@ Feel free to contact us in case you need any help.
 
 The login flow:
 
-![login flow image](https://api-stream-network.live4.tv/mermaid-diagram-login-flow.png \"Login flow image\")
+![login flow image](https://api-stream-network.live4.tv/mermaid-diagram-login-flow.png "Login flow image")
 
 
 For more information, please visit [https://www.live4.tv/contato](https://www.live4.tv/contato).
