@@ -1,0 +1,39 @@
+{
+    "version": "1.0.0",
+    "description": "Omnichannel for live streaming on social networks  We're glad that you chose to use Live4.tv's API for managing your connection with social networks.   Here in this documentation, you will find a step-by-step for integrating our API.  Feel free to contact us in case you need any help.  The login flow:  ![login flow image](https://api-stream-network.live4.tv/mermaid-diagram-login-flow.png \"Login flow image\")",
+    "keywords": [
+        "openapitools",
+        "openapi-generator",
+        "openapi",
+        "php",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "homepage": "https://openapi-generator.tech",
+    "license": "unlicense",
+    "authors": [
+        {
+            "name": "OpenAPI-Generator contributors",
+            "homepage": "https://openapi-generator.tech"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.3",
+        "guzzlehttp/psr7": "^1.7 || ^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0 || ^9.0",
+        "friendsofphp/php-cs-fixer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": { "StreamNetworkApi\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "StreamNetworkApi\\Test\\" : "test/" }
+    }
+}
