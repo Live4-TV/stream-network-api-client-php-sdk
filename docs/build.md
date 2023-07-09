@@ -7,9 +7,10 @@
 
 ```shell
 docker run --rm -v "${PWD}:/local" --network=host openapitools/openapi-generator-cli generate \
--i /local/openapi.yaml \
+-i https://api-stream-network.live4.tv/api-json \
 -g php \
--o /local/php \
+-o /local \
+--additional-properties=composerPackageName=live4tv/stream-network-api-client-php-sdk \
 --package-name=StreamNetworkApi \
 --git-host=github.com \
 --git-repo-id=stream-network-api-client-php-sdk \
